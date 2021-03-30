@@ -11,22 +11,7 @@
 
 <body>
     <div id="dstNode"></div>
-    <script>
-        window.onload = function() {
-            var target = document.getElementById('dstNode'),
-                source = {
-                    xsl: 'xsl/list.xsl',
-                    xml: 'xml/list.xml'
-                };
-
-            function cback() {
-                console.log('done: ', arguments)
-            }
-            Processor.initProcessor(source.xsl)
-                .render(source.xml, target, cback);
-        }
-    </script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
