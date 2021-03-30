@@ -96,4 +96,9 @@ and `list.xsl` as
 ```
 
 
+## example
 
+You can run a basic example that can be found on the `example` folder executing:  
+``` bash
+yarn && yarn start
+```
