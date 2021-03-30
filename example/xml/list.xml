@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<response>
+    <status>
+        <code>0</code>
+    </status>
+    <newsList>
+        <news>
+            <id>1</id>
+            <title>Title 1</title>
+            <date>30.11.2021T00:00.00</date>
+            <shortText>description of the first one</shortText>
+            <important>LOW</important>
+        </news>
+        <news>
+            <id>2</id>
+            <title>Title 2</title>
+            <date>20.11.2021T00:00.00</date>
+            <shortText>description of the second one</shortText>
+            <important>LOW</important>
+        </news>
+        <news>
+            <id>3</id>
+            <title>Title 3</title>
+            <date>10.11.2021T00:00.00</date>
+            <shortText>description of the third one</shortText>
+            <important>LOW</important>
+        </news>
+        <news>
+            <id>4</id>
+            <title>Title 4</title>
+            <date>01.11.2021T00:00.00</date>
+            <shortText>description of the fourth one</shortText>
+            <important>LOW</important>
+        </news>
+    </newsList>
+</response>

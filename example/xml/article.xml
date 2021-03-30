@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<response>
+    <status>
+        <code>0</code>
+    </status>
+    <newsList>
+        <news>
+            <id>1</id>
+            <text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, non voluptate praesentium tenetur ab architecto, ad cumque autem reprehenderit, nemo debitis a recusandae. Nostrum optio placeat corporis laboriosam, recusandae tempora!</text>
+        </news>
+        <news>
+            <id>2</id>
+            <text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatibus omnis delectus quisquam deleniti adipisci dolorum autem atque, impedit nisi optio a sunt provident recusandae. Culpa provident ad aliquid asperiores? </text>
+        </news>
+        <news>
+            <id>3</id>
+            <text>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt est facilis explicabo harum veritatis, dolore voluptatem vel laudantium dolorum in voluptate sed impedit enim voluptas architecto natus neque repellendus. Id?</text>
+        </news>
+    </newsList>
+</response>
