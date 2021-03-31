@@ -7,7 +7,7 @@
   <xsl:template match="/">
     <div class="round10">
       <strong>Just a new List</strong>
-      <ul>
+      <ul id="list">
         <xsl:for-each select="response/newsList/news">
           <li class="item round5">
             <xsl:attribute name="id">
