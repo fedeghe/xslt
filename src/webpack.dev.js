@@ -9,6 +9,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: '[name].js',
+        hashFunction: 'sha256',
     },
     devtool: 'inline-source-map',
     plugins: [
@@ -49,5 +50,4 @@ module.exports = {
         // publicPath: path.resolve(__dirname, './example')
     },
     mode: 'development',
-    watch: true
 };

@@ -6,8 +6,8 @@
     "author": "fedeghe <fedeghe@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "build": "webpack --config src/webpack.prod.js",
-        "start": "webpack serve --open --config src/webpack.dev.js"
+        "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --config src/webpack.prod.js",
+        "start": "NODE_OPTIONS=--openssl-legacy-provider webpack serve --open --config src/webpack.dev.js"
     },
     "devDependencies": {
         "@babel/core": "^7.13.10",

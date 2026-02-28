@@ -14,6 +14,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, '../dist'),
         filename: '[name].js',
+        hashFunction: 'sha256',
     },
     optimization: {
         minimize: true,
